@@ -51,3 +51,7 @@ hr {
     width: 150px;
     height: 150px;
 }
+
+.vertical {
+    border-left: 5px solid rgb(133, 3, 3);
+}

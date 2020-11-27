@@ -1,8 +1,8 @@
-body {
+.bg {
     background-image: url('./images/bg.jpg');
     background-size: cover;
     z-index: -1;
-    opacity: 0.7;
+    opacity: 1;
 }
 
 .nav-item {
@@ -23,4 +23,34 @@ body {
 
 .active {
     color: #ff0000;
+}
+
+.footer {
+    background-color: rgb(79, 81, 82);
+    /* margin-top: 65px; */
+}
+
+h3 {
+    background-color: rgba(131, 112, 6, 0.589);
+    border-radius: 10px;
+    color: white;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+}
+
+.mid {
+    padding-top: 200px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    transform: scale(1.1);
 }
