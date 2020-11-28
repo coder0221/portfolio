@@ -43,7 +43,7 @@ h3 {
 
 .mid {
     padding-top: 200px;
-    padding-bottom: 50px;
+    padding-bottom: 130px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -76,4 +76,41 @@ a:hover {
     color: white;
     background-color: rgba(255, 217, 0, 0.719);
     width: 200px;
+}
+
+h5 {
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    padding-top: 5px;
+    opacity: 0.8;
+    border-radius: 2px;
+}
+
+.align {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(192, 187, 187);
+    opacity: 0.8;
+    padding-bottom: 100px;
+}
+
+.pad {
+    padding-left: 250px;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.discrip {
+    background-color: beige;
+    height: 150px;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    opacity: 0.8;
+    border-radius: 2px;
 }
