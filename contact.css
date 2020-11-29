@@ -25,3 +25,53 @@ body {
 .active {
     color: #ff0000;
 }
+
+.aboutme {
+    color: rgb(255, 0, 0);
+    font-size: 90px;
+}
+
+.aboutme:hover {
+    text-decoration: none;
+    color: #ff0000;
+    font-size: 85px;
+}
+
+.mee {
+    display: none;
+}
+
+.aboutme:hover .know {
+    display: none;
+}
+
+.aboutme:hover .mee {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+i:hover,
+a:hover {
+    text-decoration: none;
+    color: #ff0000;
+    transform: scale(1.1);
+}
+
+.mid {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 130px;
+}
+
+.styl {
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+
+.text {
+    padding-left: 55%;
+}
