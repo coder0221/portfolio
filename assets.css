@@ -25,3 +25,28 @@ body {
 .active {
     color: #ff0000;
 }
+
+.ed {
+    background-color: #8d8f19d7;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+    transform: scale(1.2);
+}
+
+hr {
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+    width: 1200px;
+}
